@@ -1,0 +1,26 @@
+# Default deny: publish only reviewed code and methods files.
+/*
+!/.gitignore
+!/README.md
+!/code/
+/code/*
+!/code/README.md
+!/code/fragility_audits/
+/code/fragility_audits/*
+!/code/fragility_audits/build_master.py
+!/code/fragility_audits/prepare_cremaschi.py
+!/code/fragility_audits/protocols/
+/code/fragility_audits/protocols/*
+!/code/fragility_audits/protocols/gaussian_protocol_v1.md
+!/code/fragility_audits/tests/
+/code/fragility_audits/tests/*
+!/code/fragility_audits/tests/test_summary_public.py
+!/code/fragility_audits/papers/
+/code/fragility_audits/papers/*
+!/code/fragility_audits/papers/hartnett_saleh_2025/
+/code/fragility_audits/papers/hartnett_saleh_2025/*
+!/code/fragility_audits/papers/hartnett_saleh_2025/code/
+/code/fragility_audits/papers/hartnett_saleh_2025/code/*
+!/code/fragility_audits/papers/hartnett_saleh_2025/code/main_text_extension.py
+!/code/fragility_audits/papers/hartnett_saleh_2025/code/finalize_main_text.py
+!/code/fragility_audits/papers/hartnett_saleh_2025/code/build_replication_comparison.py
